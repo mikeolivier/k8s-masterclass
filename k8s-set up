@@ -29,6 +29,7 @@
 
 12. Create kubernetes cluster definitions on S3 bucket
    kops create cluster --cloud=aws --zones=us-east-1c --name=demo.kubernetes.vikas.net --dns-zone=vikas.net --dns private
+   kops create cluster --cloud=aws --zones=us-east-1a --name=demo.k8s.mike.net --dns-zone=mike.net --dns private  (ok)
    
    kops create cluster \
 --state=${KOPS_STATE_STORE} \
